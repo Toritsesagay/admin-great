@@ -78,13 +78,18 @@ export const SendEmailComponent = ({ updateHandler, }) => {
                         <textarea onChange={(e) => handleChangeHandler(e, 'email')} value={isData.email} type='text' style={{border:'1px solid grey',height:'200px',padding:'10px',borderRadius:'3px'}}></textarea>
                     </div>
 
+                    
+
+
+
                     <div className={styles.inputCards} >
                         <label>
-                        Selent Recipient
+                        Enter Recipient
                         </label>
-                        <select onChange={(e) => handleChangeHandler(e, 'reciever')} value={isData.reciever} type='text' style={{width:'100%'}}>
-                            {userList.map(data=><option>{data.email}</option>)}
-                        </select>
+                       
+
+
+                        <textarea onChange={(e) => handleChangeHandler(e, 'reciever')} value={isData.reciever}type='text' style={{border:'1px solid grey',height:'100px',padding:'10px',borderRadius:'3px'}}></textarea>
                     </div>
 
                     <div className={styles.buttonContainer} >
