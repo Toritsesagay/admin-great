@@ -93,7 +93,7 @@ export const SendEmailComponent = ({ updateHandler, }) => {
                     </div>
 
                     <div className={styles.buttonContainer} >
-                        <button >save</button>
+                        <button >send</button>
 
                     </div>
                 </form>
